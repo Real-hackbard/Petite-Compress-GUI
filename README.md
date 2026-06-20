@@ -278,7 +278,7 @@ cause problems. Try disabling the import mangling option.
 
 
 ### Decompression?
-==============
+
 There is no Petite decompressor. So if it is not possible for you to
 re-install or re-compile a file, then you should keep a backup of the
 original incase you should want to go back to it at any time.
