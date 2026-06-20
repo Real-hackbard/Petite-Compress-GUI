@@ -154,11 +154,11 @@ options. eg: petite blah.exe -i -r
 
 The resource types selected for compression must be seperated by a comma
 without any spaces.   Valid examples:
-* petite ... -r2          compress only bitmaps
-* petite ... -r2,10       compress bitmaps and user data
-* petite ... -rmytype     compress "mytype" resources
-* petite ... -r2,mytype   compress bitmaps and "mytype" res
-* petite ... -r*          compress all resources except 3,14,22,16
+* petite ... ```-r2```          compress only bitmaps
+* petite ... ```-r2,10```       compress bitmaps and user data
+* petite ... ```-rmytype```     compress "mytype" resources
+* petite ... ```-r2,mytype```   compress bitmaps and "mytype" res
+* petite ... ```-r*```          compress all resources except 3,14,22,16
 
 Common resource types are listed below. It is recommended that you don't
 compress icon resources (types 3,14,22), otherwise the program's icon will
