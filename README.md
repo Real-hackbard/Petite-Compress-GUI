@@ -133,11 +133,11 @@ NOTE: You can use wildcards and multiple filenames in the command-line.
       If you use a filename with any spaces then the whole filename must
       be enclosed in quotes.
       Valid examples:
-               petite *.exe -b0 -r* -xTYPELIB
-               petite "my file.dll" -ob.dll
-               petite a.drv b* c.exe -1
-               petite -y "*.dll" -b0 -5
-               petite a*.exe b.exe -p0 -e2
+               ```petite *.exe -b0 -r* -xTYPELIB```
+               ```petite "my file.dll" -ob.dll```
+               ```petite a.drv b* c.exe -1```
+               ```petite -y "*.dll" -b0 -5```
+               ```petite a*.exe b.exe -p0 -e2```
 
 TIP: To produce the smallest files, use the "-r**" and "-e2" command-line
      options. Obviously, using higher compression levels also produces
