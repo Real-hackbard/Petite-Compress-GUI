@@ -25,7 +25,7 @@ Download latest Version : [2.4](https://www.un4seen.com/files/petite24.zip)
 Copyright ©1999-2015 Un4seen Developments. All rights reserved.
 
 ### What's the point?
-=================
+
 Petite is a Win32 (Windows 9x/NT/etc) executable compressor. It allows
 compression of the whole executable - code, data and resources. Petite
 automatically decides which parts of the executable can be compressed
@@ -34,7 +34,7 @@ executable can be run as if it was the original uncompressed version.
 
 
 ### Why "Petite"?
-=============
+
 The file format of Win32 executables is called the "Portable Executable"
 file format, "PE" for short. Petite means "of small and dainty build",
 which kind of describes the executables after they've been compressed!
