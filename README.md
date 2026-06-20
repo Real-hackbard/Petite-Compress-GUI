@@ -42,7 +42,7 @@ And, Petite obviously begins with "PE"! Clever huh? :)
 
 
 ### Main Features
-=============
+
 * Compresses all Win32 PE files
 - including EXE, DLL, DRV etc...
 
@@ -64,8 +64,8 @@ And, Petite obviously begins with "PE"! Clever huh? :)
 * ... and a GUI version
 - quick and easy to use
 
-## Command-Line Options (console version)
-======================================
+### Command-Line Options (console version)
+
 ```
 -i     Display file information:
        Displays a list of the sections in the file and a list of the
@@ -176,7 +176,7 @@ probably wise to be on the safe side and test all files you compress with
 Petite before deleting the original.
 
 ### Standard Resource Types
------------------------
+
 * 1    Cursor
 * 2    Bitmap
 * 3    Icon
