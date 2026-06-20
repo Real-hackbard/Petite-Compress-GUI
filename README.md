@@ -26,7 +26,7 @@ Copyright ©1999-2015 Un4seen Developments. All rights reserved.
 
 ### What's the point?
 
-Petite is a Win32 (Windows 9x/NT/etc) executable compressor. It allows
+Petite is a Win32 (Windows 9x/NT/XP/7/8/10/11 etc) executable compressor. It allows
 compression of the whole executable - code, data and resources. Petite
 automatically decides which parts of the executable can be compressed
 and which parts need to be left as they are. The compressed output
