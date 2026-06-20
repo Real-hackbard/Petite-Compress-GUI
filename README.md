@@ -22,7 +22,7 @@ Two versions of Petite are provided: a GUI version and a command-line console ve
 </br>
 
 Download latest Version : [2.4](https://www.un4seen.com/files/petite24.zip)  
-Copyright ©1999-2015 Un4seen Developments. All rights reserved.
+Copyright ©1999-2015 [Un4seen Developments](https://www.un4seen.com/). All rights reserved.
 
 ### What's the point?
 
