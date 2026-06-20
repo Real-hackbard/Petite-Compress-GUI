@@ -71,19 +71,24 @@ And, Petite obviously begins with "PE"! Clever huh? :)
        Displays a list of the sections in the file and a list of the
        resource types used. Also displays information on how much of
        the file is compressable.
+
 -<0-9> Set the compression level
        As the level gets higher the compression gets better, but you'll
        need a fast computer (or a lot of time) when using the highest
        levels! (default: 0) NOTE: The compression level has no effect
                                   on the decompression speed.
+
 -o<file> Set output filename:
        Sets the compressed output filename.
+
 -b<0|1> switch: Backup original file:
        Renames the original file to "file.BAK". Backups are disabled
        when the "-o" option is used. 0=OFF, 1=ON (default: ON)
+
 -t<0|1> switch: Compress import tables
        If files don't work after compression, try switching this OFF.
        0=OFF, 1=ON (default: ON)
+
 -e<0|1|2> switch: Compress exports
        If files don't work after compression, then try switching this.
        0=OFF, 1=ON, 2=ON+EXE TABLES (default: ON)
@@ -91,6 +96,7 @@ And, Petite obviously begins with "PE"! Clever huh? :)
          ON+EXE TABLES: The exports AND export table are compressed when
                         compressing EXEs. The table is never compressed
                         in DLLs as the DLLs would then not be importable.
+
 -s<0|1|2> switch: Strip relocations
        0=OFF, 1=EXE ONLY, 2=ALWAYS (default: EXE ONLY)
          OFF: The relocation information is retained.
@@ -99,31 +105,41 @@ And, Petite obviously begins with "PE"! Clever huh? :)
          ALWAYS: The relocation information is always stripped. Only
                  use this when you are sure that a DLL will never need
                  to be relocated.
+
 -r<res1,res2,res3...> Select resource types for compression:
        (default: NONE) ... SEE BELOW FOR DETAILS
+
 -x<res1,res2,res3...> Select resource types for NON-compression:
        Excludes the selected resource types from compression, this is
        only really useful when using the "-r*" option.
+
 -m<0|1> switch: Mangle import tables
        Messes up the import tables during run-time. This may not work with
        files that import data items. 0=OFF, 1=ON (default: ON)
+
 -v<0|1> switch: Virus checking
        Makes the compressed files check themselves for virus infection
        every time they are executed. 0=OFF, 1=ON (default: ON)
+
 -a     Align the file to 4k boundary
        This improves loading speed in Windows 98, but it also increases
        the size... not recommended for use with small files.
+
 -p<0|1> switch: Display compression progress:
        Disables/enables the displaying of the compression progress
        counter. 0=OFF, 1=ON (default: ON)
+
 -y     Overwrite existing files
+
 -n     Don't overwrite existing files
+
 -shell Register shell extension
        This allows you to compress an EXE/DLL file by simply right-clicking
        on it in Windows Explorer. You may also choose the options to be used,
        by specifying them at the same time as this option... For example,
        "Petite -shell -b0" will register the shell extension, and when used,
        Petite will not create backups.
+
 -shellx Unregister shell extension
 ```
 
