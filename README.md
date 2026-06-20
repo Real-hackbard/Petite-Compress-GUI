@@ -195,14 +195,14 @@ Petite before deleting the original.
 * 22   Animated icon
 
 ### Building an excutable with Petite
-=================================
+
 Because Petite is command-line driven it can easily be used within a
 compiler's build process or makefile. The only extra things you have
 to do is use the "-p0" (progress off) option and possibly the "-y"
 (overwrite) option.
 
 ### Using Petite with Visual C++
-----------------------------
+
 * 1) Open the "Project Settings" dialog (press Alt-F7) and select the
    project configuration you wish to produce a compressed executable.
 * 2) Goto the "Link" page and remove the ".exe" extension from the
@@ -219,14 +219,14 @@ NOTE: You should make sure Petite is in the path. This is most easily
       achieved by copying PETITE.EXE into the Windows directory.
 
 ### Compressed files not working?
-=============================
+
 Some compressed files may not work, there are a few possible reasons for
 this. If you do find a file that does not work after compression, try
 checking these causes. If you know that none of these cases apply to the
 file in question, then please send details (email at end of this file).
 
 ### Extra data attached (not fixable)
----------------------------------
+
 Some files, noteably installation packages, have data attached to the
 end of the file. This data is stripped by Petite as it is not part of
 the EXE structure. If the extra data is of importance to the file, not
@@ -235,7 +235,7 @@ compressed file does not work. Petite will display a warning message
 if it finds any additional data at the end of a file.
 
 ### Exports called before decompression (possibly fixable)
-------------------------------------------------------
+
 Sometimes, very rarely, an EXE will link to a DLL that will inturn call
 back a function in the EXE. The problem is that the DLL is linked to the
 EXE by the system before the EXE can decompress itself. Obviously, if
@@ -248,7 +248,7 @@ still not work if the function that's called back needs to access data
 from a compressed part of the file.
 
 ### Resources accessed before decompression (always fixable)
---------------------------------------------------------
+
 This problem is similar to the previous exports problem, except this time
 a linked DLL is trying to access a resource before it's been decompressed.
 Obviously, this can only be a problem if you have compressed a resource
@@ -265,14 +265,14 @@ If the problem file has a resource type called "TYPELIB", then try without
 compressing this resource type first.
 
 ### Modification detection (not fixable)
-------------------------------------
+
 If the EXE has some built-in modification detection, then the chances are
 it will detect that the file has been "modified", and it will probably
 refuse to work. Obviously, there are no fixes to this and these files are
 uncompressable.
 
 Data item importing (always fixable)
-------------------------------------
+
 If the file imports data items from a DLL, then import table mangling could
 cause problems. Try disabling the import mangling option.
 
