@@ -155,7 +155,7 @@ NOTE: You can use wildcards and multiple filenames in the command-line.
                ```petite -y "*.dll" -b0 -5```
                ```petite a*.exe b.exe -p0 -e2```
 
-TIP: To produce the smallest files, use the "-r**" and "-e2" command-line
+TIP: To produce the smallest files, use the ```"-r**"``` and ```"-e2"``` command-line
      options. Obviously, using higher compression levels also produces
      smaller files.
 
@@ -165,8 +165,8 @@ TIP: To produce the smallest files, use the "-r**" and "-e2" command-line
 
 All resources are grouped into types, which can be either a number or a
 word. To see a list of the resource types used in a file you should run
-Petite using the "-i" (display information) and "-r" (compress resources)
-options. eg: petite blah.exe -i -r
+Petite using the ```"-i"``` (display information) and ```"-r"``` (compress resources)
+options. eg: petite blah.exe ```-i -r```
 
 The resource types selected for compression must be seperated by a comma
 without any spaces.   Valid examples:
