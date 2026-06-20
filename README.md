@@ -180,11 +180,11 @@ Common resource types are listed below. It is recommended that you don't
 compress icon resources (types 3,14,22), otherwise the program's icon will
 not be visible in the Start menu or a directory listing. Also, version
 information (type 16) should not be compressed as it would be needed if a
-program wanted to check the version of the file. "*" can be used to
+program wanted to check the version of the file. ```"*"``` can be used to
 respresent all resource types other than version information and icons
-(types 3,14,22,16). "**" can be used to represent all resource types other
+(types 3,14,22,16). ```"**"``` can be used to represent all resource types other
 than version information and all but the 1st icon. You can also use the
-"-x" option to select other types to exclude from compression.
+```"-x"``` option to select other types to exclude from compression.
 
 Whichever resources you choose to compress, you should make sure the new
 compressed file loads properly before deleting the original file. It is
@@ -214,7 +214,7 @@ Petite before deleting the original.
 
 Because Petite is command-line driven it can easily be used within a
 compiler's build process or makefile. The only extra things you have
-to do is use the "-p0" (progress off) option and possibly the "-y"
+to do is use the ```"-p0"``` (progress off) option and possibly the ```"-y"```
 (overwrite) option.
 
 ### Using Petite with Visual C++
@@ -258,7 +258,7 @@ EXE by the system before the EXE can decompress itself. Obviously, if
 the EXE has not yet been decompressed, the DLL ends up calling a load of
 rubbish and the program will crash.
 
-You can try switching off "Export Compression" ("-e0" option). This may
+You can try switching off "Export Compression" (```"-e0"``` option). This may
 vastly reduce the compression results, and the compressed program may
 still not work if the function that's called back needs to access data
 from a compressed part of the file.
