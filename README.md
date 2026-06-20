@@ -44,25 +44,25 @@ And, Petite obviously begins with "PE"! Clever huh? :)
 ### Main Features
 
 * Compresses all Win32 PE files
-- including EXE, DLL, DRV etc...
+  * including EXE, DLL, DRV etc...
 
 * Automatic compression decision making
-- decides which parts are compressable and which are not
+  * decides which parts are compressable and which are not
 
 * Resource compression
-- user selectable which resource types to compress
+  * user selectable which resource types to compress
 
 * 100% Assembler decompression code
-- no noticeable delay at load time in most cases
+  * no noticeable delay at load time in most cases
 
 * Virus/tampering checking
-- the compressed files automatically check themselves when executed
+  * the compressed files automatically check themselves when executed
 
 * Command-line version...
-- allows use from within compilers and makefiles
+  * allows use from within compilers and makefiles
 
 * ... and a GUI version
-- quick and easy to use
+  * quick and easy to use
 
 ### Command-Line Options (console version)
 
