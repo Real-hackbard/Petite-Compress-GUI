@@ -277,7 +277,7 @@ compressing the different resources one by one and seeing which ones stop
 the file working. Then simply compress the file, without compressing the
 problem resource(s).
 
-If the problem file has a resource type called "TYPELIB", then try without
+If the problem file has a resource type called "```TYPELIB```", then try without
 compressing this resource type first.
 
 ### Modification detection (not fixable)
