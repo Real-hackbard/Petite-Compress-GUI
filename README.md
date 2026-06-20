@@ -36,7 +36,7 @@ executable can be run as if it was the original uncompressed version.
 ### Why "Petite"?
 
 The file format of Win32 executables is called the "Portable Executable"
-file format, "PE" for short. Petite means "of small and dainty build",
+file format, "[PE](https://de.wikipedia.org/wiki/Portable_Executable)" for short. Petite means "of small and dainty build",
 which kind of describes the executables after they've been compressed!
 And, Petite obviously begins with "PE"! Clever huh? :)
 
@@ -221,15 +221,15 @@ to do is use the ```"-p0"``` (progress off) option and possibly the ```"-y"```
 
 * 1) Open the "Project Settings" dialog (press Alt-F7) and select the
    project configuration you wish to produce a compressed executable.
-* 2) Goto the "Link" page and remove the ".exe" extension from the
+* 2) Goto the ```"Link"``` page and remove the ```".exe"``` extension from the
    "Output file name". eg: "Release/blah.exe" -> "Release/blah"
 * 3) Goto the "Custom Build" page and enter the following "Build command":
-     "petite -p0 -y $(InputPath) -o$(InputPath).exe" (+extra options)
+     "petite ```-p0 -y``` $(InputPath) -o$(InputPath).exe" (+extra options)
 * 4) Enter the following "Output file":
      "$(InputPath).exe"
 
 If you wish to compress a DLL, rather than an EXE, then replace all cases
-of "exe" above with "dll".
+of ```"exe"``` above with "dll".
 
 NOTE: You should make sure Petite is in the path. This is most easily
       achieved by copying PETITE.EXE into the Windows directory.
