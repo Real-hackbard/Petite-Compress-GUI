@@ -64,7 +64,7 @@ And, Petite obviously begins with "PE"! Clever huh? :)
 * ... and a GUI version
   * quick and easy to use
 
-### Command-Line Options (console version)
+### :wrench: Command-Line Options (console version)
 
 ```
 -i     Display file information:
