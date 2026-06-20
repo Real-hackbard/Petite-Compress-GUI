@@ -24,7 +24,7 @@ Two versions of Petite are provided: a GUI version and a command-line console ve
 Download latest Version : [2.4](https://www.un4seen.com/files/petite24.zip)  
 Copyright ©1999-2015 Un4seen Developments. All rights reserved.
 
-What's the point?
+### What's the point?
 =================
 Petite is a Win32 (Windows 9x/NT/etc) executable compressor. It allows
 compression of the whole executable - code, data and resources. Petite
@@ -33,7 +33,7 @@ and which parts need to be left as they are. The compressed output
 executable can be run as if it was the original uncompressed version.
 
 
-Why "Petite"?
+### Why "Petite"?
 =============
 The file format of Win32 executables is called the "Portable Executable"
 file format, "PE" for short. Petite means "of small and dainty build",
@@ -41,7 +41,7 @@ which kind of describes the executables after they've been compressed!
 And, Petite obviously begins with "PE"! Clever huh? :)
 
 
-Main Features
+### Main Features
 =============
 * Compresses all Win32 PE files
 - including EXE, DLL, DRV etc...
@@ -64,7 +64,7 @@ Main Features
 * ... and a GUI version
 - quick and easy to use
 
-Command-Line Options (console version)
+## Command-Line Options (console version)
 ======================================
 ```
 -i     Display file information:
@@ -146,7 +146,7 @@ TIP: To produce the smallest files, use the "-r**" and "-e2" command-line
 </br>
 
 ### Compressing Resources
-=====================
+
 All resources are grouped into types, which can be either a number or a
 word. To see a list of the resource types used in a file you should run
 Petite using the "-i" (display information) and "-r" (compress resources)
