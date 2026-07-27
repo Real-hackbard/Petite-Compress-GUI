@@ -9,6 +9,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
 | 1.1.x   | :white_check_mark: Execute & Wait for Compress |
+| 1.2.x   | :white_check_mark: Fixing file paths using quotation marks |
 
 ## Reporting a Vulnerability
 
